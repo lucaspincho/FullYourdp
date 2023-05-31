@@ -1,0 +1,31 @@
+{
+  "background_color": "#ffffff",
+  "description": "App de financiamento",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "YourDp",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "YourDp",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "finance"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "img/favicons.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/favicons.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": []
+}

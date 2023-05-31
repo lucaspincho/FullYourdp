@@ -1,0 +1,190 @@
+h2 {
+  position: absolute;
+  width: 160px;
+  height: 24px;
+  left: 27px;
+  top: 184px;
+
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.title{
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.btn-faltas {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.imagem {
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 335px;
+  height: 56px;
+  background: #2D1CC6;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h3 {
+  text-align: center;
+  align-items: center;
+  background-color: #2D1CC6;
+
+}
+
+b {
+  color: white;
+}
+
+
+
+.container {
+  text-align: center;
+  align-items: center;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+button[type="submit"] {
+  background-color: #2D1CC6;
+  border: none;
+  color: white;
+  padding: 18px 100px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+
+
+
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+/* .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="file"] {
+  color: #2D1CC6;
+  align-items: center;
+  text-align: center;
+  
+}
+
+ */
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+ */
+
+
+
+
+
+
+
+
+
+/* } */
