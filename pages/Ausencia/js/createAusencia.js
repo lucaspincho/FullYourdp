@@ -49,9 +49,9 @@ if (!token) {
           .then((res) => res.json())
           .then((data) => {
             document.getElementById('loading-spinner').style.display = 'none';
-            if(data.ok){
-              alert('Ausência cadastrada');
-            }
+            
+            alert("Ausencia cadastrada")
+            
 
             if (data.msg) {
               alert(data.msg)

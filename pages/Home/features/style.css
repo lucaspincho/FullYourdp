@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+  
 }
 
 .container{
@@ -8,7 +8,7 @@ body{
   align-items: center;
   justify-content: center;
 
-   
+  overflow-x: hidden;
 }
 
 
@@ -16,6 +16,8 @@ body{
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
   
 th, td {
@@ -28,4 +30,6 @@ tbody:nth-child(even) {
   background-color: #f2f2f2;
 }
   
- 
+.containerTable{
+  overflow-x: scroll;
+}

@@ -12,24 +12,26 @@ if (!token) {
       'Authorization': 'Bearer ' + token
     }
   })
-  .then((res) => res.json())
-  .then((data) => data.msg.ponto)
-  .then((pontos) => {
-    let table = document.getElementById('tablePoint');
+    .then((res) => res.json())
+    .then((data) => data.msg.ausencia)
+    .then((ausencias) => {
+      let listAusencia = document.getElementById("listAusencia")
 
-    pontos.shift()
+      ausencias.shift()
 
-    pontos.map((ponto) => {
-      table.innerHTML += `
-      <tr>
-        <td>${ponto.data}</td>
-        <td>${ponto.entrada}</td>
-        <td>${ponto.intervalo}</td>
-        <td>${ponto.volta}</td>
-        <td>${ponto.saida}</td>
-      </tr>
+      ausencias.map((ausencia) => {
+        listAusencia.innerHTML += `
+
+        <div class="ausenciaItem">
+          <h3>${ausencia.dia}</h3>
+          <h3>${ausencia.motivo}</h3>
+        </div>
       
       `
+      })
     })
-  })
 }
+
+
+
+

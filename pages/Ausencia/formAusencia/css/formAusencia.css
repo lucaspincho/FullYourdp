@@ -1,6 +1,8 @@
 .container{
-  padding-bottom: 75px;
+  padding-bottom: 95px;
 }
+
+
 
 .form {
   display: flex;
@@ -9,7 +11,7 @@
   align-items: center;
   justify-content: center;
 
-  gap: 1rem;
+  gap: 1.5rem;
 
   width: 100%;
   margin-top: 2rem;
@@ -81,13 +83,27 @@ input[type=file]::-webkit-file-upload-button {
   font-weight: 700;
   font-size: 26px;
 
-  margin-left: 2rem;
+  
 }
 
 
 
 
+.btnImage{
+  width: 335px;
+  height: 56px;
+  left: 20px;
+  top: 558px;
 
+  /* Light/Gray Color */
+
+  background: #F7F7F9;
+  border-radius: 14px;
+
+  border: none;
+  color: #2D1CC6;
+
+}
 
 
 
