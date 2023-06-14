@@ -14,6 +14,8 @@ function updateTime() {
     document.getElementById("clockContent").innerHTML = timeString;
     document.getElementById("clockContentModalEntrada").innerHTML = timeString;
     document.getElementById("clockContentModalSaida").innerHTML = timeString;
+    document.getElementById("clockContentModalIntervalo").innerHTML = timeString;
+    document.getElementById("clockContentModalVolta").innerHTML = timeString;
 }
 
 
@@ -31,6 +33,8 @@ function updateDate() {
     document.getElementById("dateContent").innerHTML = dateString;
     document.getElementById("dateContentModalEntrada").innerHTML = dateString;
     document.getElementById("dateContentModalSaida").innerHTML = dateString;
+    document.getElementById("dateContentModalIntervalo").innerHTML = dateString;
+    document.getElementById("dateContentModalVolta").innerHTML = dateString;
 }
 
 window.onload = function () {
