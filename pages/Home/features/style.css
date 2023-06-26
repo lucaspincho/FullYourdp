@@ -32,4 +32,7 @@ tbody:nth-child(even) {
   
 .containerTable{
   overflow-x: scroll;
+  overflow-y: scroll;
+
+  max-width: 104%;
 }

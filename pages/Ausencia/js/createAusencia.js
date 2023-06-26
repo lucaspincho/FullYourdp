@@ -8,7 +8,7 @@ if (!token) {
 
 
 
- 
+
 
 
   const boton_foto = document.querySelector('#file');
@@ -16,7 +16,30 @@ if (!token) {
 
   let widget_cloudinary = cloudinary.createUploadWidget({
     cloudName: 'dkt07q4bz',
-    uploadPreset: 'ml_default'
+    uploadPreset: 'ml_default',
+    language: "pt",
+    text: {
+
+      "pt": {
+        "or": "ou",
+        "menu": {
+          "files": "Meus arquivos"
+        },
+        "queue": {
+          "title": "Seu arquivo",
+          "done": "Enviar",
+          "upload_more": "Enviar mais",
+        },
+        "local": {
+          "browse": "Enviar arquivo",
+          "dd_title_single": "Coloque seu arquivo aqui",
+          "dd_title_multi": "Coloque seu arquivo aqui",
+          "drop_title_single": "Drop a file to upload",
+          "drop_title_multiple": "Drop files to upload"
+        },
+      }
+
+    },
   }, (err, result) => {
     if (!err && result && result.event === 'success') {
       console.log('Imagen subida con éxito', result.info);
@@ -28,7 +51,7 @@ if (!token) {
 
       const formAusencia = document.getElementById("formAusencia")
 
-      
+
       formAusencia.addEventListener('submit', () => {
         document.getElementById('loading-spinner').style.display = 'block';
         fetch(`https://api-yourdp.onrender.com/user/${userId}/ausencia`, {
@@ -49,9 +72,9 @@ if (!token) {
           .then((res) => res.json())
           .then((data) => {
             document.getElementById('loading-spinner').style.display = 'none';
-            
+
             alert("Ausencia cadastrada")
-            
+
 
             if (data.msg) {
               alert(data.msg)
